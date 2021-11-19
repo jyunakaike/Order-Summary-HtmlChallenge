@@ -11,3 +11,37 @@
     background-attachment: fixed;
     background-size: 100% 100%;
 }
+/* .container{
+    margin: auto;
+    width: 60%;
+    background: white;
+    padding: 10px;
+} */
+.section{
+    background: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    width: 26%;
+    height: 700px;
+    border-radius: 5%;
+    overflow: hidden;
+}
+.section img{
+    width: 100%;
+}
+.section h1{
+    text-align: center;
+}
+/* 
+.container{
+    display: block;
+    background: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+    border-radius: 20%;
+    overflow: hidden;
+}
+   */
