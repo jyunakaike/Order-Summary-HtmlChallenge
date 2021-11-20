@@ -1,15 +1,11 @@
-.attribution {
-    font-size: 11px;
-    text-align: center;
-}
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
+body{
+    font-family: 'Red Hat Display', sans-serif;
 }
 .background-desktop{
     background-image: url('./images/pattern-background-desktop.svg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100% 100%;
+    background-size: 100% 50%;
 }
 /* .container{
     margin: auto;
@@ -18,36 +14,52 @@
     padding: 10px;
 } */
 .section{
-    background: white;
+    background: hsl(225, 100%, 98%);
     margin-left: auto;
     margin-right: auto;
     margin-top: 5%;
     width: 26%;
-    height: 700px;
+    height: 600px;
     border-radius: 5%;
     overflow: hidden;
+    display: flex;
+    /* place-items: center; */
+    flex-direction: column;
+    gap: 10px;
 }
-.section img{
+/* .section img{
     width: 100%;
-}
-.section h1{
+    height: 100%;
+} */
+.title{
     text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+    font-weight: bold;
 }
-.section p{
+.subtitle {
+    color: hsl(224, 23%, 55%);
     text-align: center;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 16px;
 }
 
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: fit-content;
-    background-color:gray ;
-    margin: auto;
-    border-radius: 5%;
-    overflow: hidden;
+    /* max-width: fit-content; */
+    background-color: hsl(230, 61%, 90%);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 15px;
+    padding: 5px;
 }
 .containerImg{
     /* width: 50px;
@@ -59,16 +71,64 @@
 }
 .containerElement{
     margin: 10px;
-    width: 90px;
+    width: 175px;
 }
-/* .containerTitle{
-    
+.containerTitle{
+    font-weight: bold;
 }
 .containerPrice{
-    margin: 10px;
-} */
+    color: hsl(224, 23%, 55%);
+    
+} 
 .containerChange{
+    color:hsl(245, 75%, 52%) ;
     margin: 10px;
+    font-weight: bold;
+}
+.containerChange:hover{
+    cursor: pointer;
+}
+
+.button{
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 8px;
+    border: none;
+    color:hsl(225, 100%, 94%);
+    width: 78%;
+    cursor: pointer;
+    font-weight: bold;
+    height: 50px; 
+    margin-left: 50px;
+    margin-right: 50px;
+
+    
+}
+.cancel{
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cancel:hover{
+    cursor: pointer;
+ 
+}
+
+.color {
+    color:hsl(225, 100%, 94%) ;
+    color:hsl(245, 75%, 52%) ;
+    color: hsl(225, 100%, 98%);
+    color: hsl(224, 23%, 55%); 
+    color: hsl(223, 47%, 23%);
+
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
 }
 
 
