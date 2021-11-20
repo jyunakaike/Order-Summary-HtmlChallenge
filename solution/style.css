@@ -14,18 +14,21 @@ body{
     padding: 10px;
 } */
 .section{
+    display: flex;
+        /* place-items: center; */
+        flex-direction: column;
+        gap: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+        /* width: 26%;
+        height: 600px; */
+        height: 528px;
+        width: 375px;
     background: hsl(225, 100%, 98%);
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5%;
-    width: 26%;
-    height: 600px;
     border-radius: 5%;
     overflow: hidden;
-    display: flex;
-    /* place-items: center; */
-    flex-direction: column;
-    gap: 10px;
+    
 }
 /* .section img{
     width: 100%;
@@ -35,7 +38,6 @@ body{
     text-align: center;
     margin-top: 5px;
     margin-bottom: 5px;
-    
     font-weight: bold;
 }
 .subtitle {
@@ -50,16 +52,15 @@ body{
 
 .container{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    /* max-width: fit-content; */
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 50px;
+        margin-right: 50px;
+        padding: 5px;
     background-color: hsl(230, 61%, 90%);
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 50px;
-    margin-right: 50px;
     border-radius: 15px;
-    padding: 5px;
 }
 .containerImg{
     /* width: 50px;
@@ -94,12 +95,13 @@ body{
     border-radius: 8px;
     border: none;
     color:hsl(225, 100%, 94%);
-    width: 78%;
+    width: 276px;
     cursor: pointer;
     font-weight: bold;
     height: 50px; 
-    margin-left: 50px;
-    margin-right: 50px;
+    margin: auto;
+    /* margin-left: 10%;
+    margin-right: 10%; */
     box-shadow: 0px 5px 5px hsl(224, 23%, 55%);
     cursor: pointer;
     
@@ -109,21 +111,18 @@ body{
     box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
     color: #fff;
     transform: translateY(-7px);
-  }
-
-
-
+}
 .cancel{
     font-weight: bold;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: auto;
 }
 .cancel:hover{
     cursor: pointer;
  
 }
-
 .color {
     color:hsl(225, 100%, 94%) ;
     color:hsl(245, 75%, 52%) ;
@@ -132,7 +131,6 @@ body{
     color: hsl(223, 47%, 23%);
 
 }
-
 .attribution {
     font-size: 11px;
     text-align: center;
