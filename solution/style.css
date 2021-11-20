@@ -100,9 +100,19 @@ body{
     height: 50px; 
     margin-left: 50px;
     margin-right: 50px;
-
+    box-shadow: 0px 5px 5px hsl(224, 23%, 55%);
+    cursor: pointer;
     
 }
+.button:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+
+
+
 .cancel{
     font-weight: bold;
     display: flex;
@@ -130,5 +140,4 @@ body{
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
-
 
